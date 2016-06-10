@@ -16,5 +16,5 @@ Caused by: javax.persistence.EntityExistsException: A different object with the 
 
 ## 질문
 
-아무래도 service의 save()에서 저장하는 방식이 잘못된 듯 한데,
-어떻게 저장하면 오류 없이 `channel`, `channel_product`, `product` 테이블에 오류없이 저장될 수 있을까요
+- 아무래도 service의 `save()`와 domain의 `Cascade` 등 저장하는 방식이 잘못된 듯 한데,
+- 어떻게 저장하면 오류 없이 `channel`, `channel_product`, `product` 테이블에 오류없이 저장될 수 있을까요?
